@@ -1,3 +1,4 @@
+from src.core.user_manager import current_user
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
@@ -12,7 +13,9 @@ class HomeScreen(BoxLayout):
         self.padding = 20
 
         self.add_widget(
-            Label(text="👋 Dzień dobry w Ogarniaczu Życia")
+            Label(
+                text=f"👋 Dzień dobry {current_user.name}"
+                )
         )
 
         self.add_widget(
