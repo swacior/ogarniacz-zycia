@@ -1,0 +1,13 @@
+{
+    "name": "Kuba",
+    "interests": [
+        "motoryzacja",
+        "programowanie"
+    ],
+    "goals": [
+        "przebranżowienie do IT"
+    ],
+    "preferences": {
+        "planning_time": "rano"
+    }
+}
